@@ -18,7 +18,7 @@ app.use(cookieParser());
 app.use(cors({
    origin: [
     "http://localhost:5173",
-    "https://mern-auth-assignment-i3px3h0pn-dishaagrawalcodes-projects.vercel.app/"
+    "https://mern-auth-assignment-hhu7ijxik-dishaagrawalcodes-projects.vercel.app/"
 ],
     credentials: true
 }));
