@@ -16,10 +16,10 @@ app.use(cookieParser());
 // CORS: allow the frontend origin, and allow cookies to be sent cross-site
 
 app.use(cors({
-    origin: [
-        "http://localhost:5173",
-        "https://mern-auth-assignment-5e0pmtjcu-dishaagrawalcodes-projects.vercel.app/"
-    ],
+   origin: [
+    "http://localhost:5173",
+    "https://mern-auth-assignment-cfns5j95o-dishaagrawalcodes-projects.vercel.app"
+],
     credentials: true
 }));
 
